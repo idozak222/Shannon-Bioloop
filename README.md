@@ -38,6 +38,11 @@ Design an open, living geospatial map of resource loops that connects waste/by-p
 
 3. **Regulatory Checklists**  
    - Permits, compliance steps, standards, and relevant authorities
+   - ## Inspiration
+**Kalundborg Symbiosis (Denmark)** shows that waste-as-resource ecosystems can sustain rural economies while cutting emissions.---
+**Kamikatsu, Japan** — a small mountain town sustains local reuse/repair businesses via a Zero-Waste Center and resident sorting (>80% recycling), turning “waste” into community value. 
+￼
+**Nesselnbach, Switzerland** — food-waste biogas is upgraded to biomethane and the off-gas CO₂ is purified/liquefied and sold as a product, adding rural revenue streams and closing loops.  ￼
    
 > The Atlas serves as a **teaching aid**, **research reference**, **investment teaser**, and a **prototype** for circular-enterprise hubs.
 
@@ -65,8 +70,5 @@ Scope (prompts, not instructions)
 
 ---
 
-## Inspiration
-**Kalundborg Symbiosis (Denmark)** shows that waste-as-resource ecosystems can sustain rural economies while cutting emissions.---
-**Kamikatsu, Japan** — a small mountain town sustains local reuse/repair businesses via a Zero-Waste Center and resident sorting (>80% recycling), turning “waste” into community value.  ￼
-**Nesselnbach, Switzerland** — food-waste biogas is upgraded to biomethane and the off-gas CO₂ is purified/liquefied and sold as a product, adding rural revenue streams and closing loops.  ￼
+
 
