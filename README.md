@@ -6,7 +6,7 @@ A challenge brief to prototype a **circular bio-economy atlas** for the Shannon 
 ---
 
 ## Background
-The Shannon Basin’s agri-industrial ecosystem produces abundant organic by-products—dairy residues, crop waste, timber offcuts, and municipal organics. Under **Ireland’s Circular Economy Strategy**, these can become new revenue streams through **local bio-loops**.
+The Shannon Basin’s agri-industrial ecosystem produces abundant organic by-products—dairy residues, crop waste, timber offcuts, and municipal organics. Under **Ireland’s Circular Economy Strategy**, these can become new revenue streams through **local bio-loops**. Regions constantly produce under-used by-products (food waste, crop residues, textiles, demolition timber, heat, CO₂ streams). The actors who could turn these into value—processors, logistics providers, and end-users—are rarely visible to one another in space, time, and specification. As a result, feasible circular-economy pilots (biogas co-ops, fibre crops for insulation, reuse hubs, compost exchanges, heat-to-greenhouse loops, etc.) don’t get off the ground.
 
 **Context refs**
 - Circular Economy Strategy 2022–2023  [[link]][ces]
@@ -15,16 +15,20 @@ The Shannon Basin’s agri-industrial ecosystem produces abundant organic by-pro
 ---
 
 ## Problem
-Design a **geospatial map of resource loops**—connecting waste producers, processors, and end-users—to surface feasible circular-economy pilots (e.g., biogas co-ops, fibre crops for insulation, reuse hubs, compost exchanges).
-
+Design an open, living geospatial map of resource loops that connects waste/by-product producers with processors and end-users, surfaces actionable pilot opportunities, and helps coalitions move from idea → feasibility → implementation.
 **Key questions**
 - What feedstocks exist, where, and at what volumes/seasonality?
 - Which processors and off-takers are viable within realistic logistics radii?
 - Which loops pencil out on unit economics and regulatory feasibility?
+- How might siting and landscaping increase biodiversity (pollinator corridors, hedgerows, agroforestry buffers) around proposed hubs?
+- Could local biomaterials (hemp, flax, seaweed, agri-residues) replace virgin inputs in insulation, panels, or packaging — and what properties would they need?
+- Which resilience features (rainwater harvesting, drought/heat buffers, seed banks, diverse crops) prepare the system for shocks?
+
+  **Coming up with critical quesitons is almost always an element of a winning idea**
 
 ---
 
-## Expected Outcomes
+## Possible Outcomes
 1. **Shannon BioLoop Atlas**  
    - Public, browsable map (web) + source data (CSV/GeoJSON)  
    - Layers: feedstocks, processors, logistics corridors, demand nodes
@@ -34,22 +38,23 @@ Design a **geospatial map of resource loops**—connecting waste producers, proc
 
 3. **Regulatory Checklists**  
    - Permits, compliance steps, standards, and relevant authorities
-
+   
 > The Atlas serves as a **teaching aid**, **research reference**, **investment teaser**, and a **prototype** for circular-enterprise hubs.
 
 ---
 
 ## Difficulty
-**Intermediate** — data synthesis + stakeholder mapping.
+**Intermediate** — data synthesis + stakeholder mapping. Can be elevated with unqiue engineering solutions and scientific manipulation
 
 ---
 
 ## Scope
-**Includes**
-- Organics (agri/forestry/municipal), material reuse, logistics mapping
 
-**Excludes**
-- Heavy-industry planning
+Scope (prompts, not instructions)
+	•	Spot what matters locally: What leftover materials exist nearby, where do they show up, and who touches them? If you sanity-checked quantities, what simple observations (e.g., “how full is a typical bin on a typical day?”) might help?
+	•	Use plain-sense science & engineering to reason: How could you sketch a “what goes in ≈ what comes out” check for a candidate loop? Where might a hub make sense so most suppliers/users are “not too far”? If you imagined delivery rounds, what patterns would keep trucks from backtracking? What quick way could you compare the total footprint of two options (e.g., compost vs. biogas)?
+	•	Test thinking with small experiments (on paper or in code): What’s the tiniest trial—or simple computer mock-up—that would reveal whether timing, quality, or cost will break the idea? Which few numbers would you track to learn fastest, and how would you compare options when those numbers are uncertain?
+	•	Invite others and shape the rules together: Who should be in the conversation (makers, movers, users, neighbours), and what light-touch norms for sharing info would build trust? What simple “opportunity card” could others quickly react to, and what would success look like to them?
 
 ---
 
@@ -61,49 +66,7 @@ Design a **geospatial map of resource loops**—connecting waste producers, proc
 ---
 
 ## Inspiration
-**Kalundborg Symbiosis (Denmark)** shows that waste-as-resource ecosystems can sustain rural economies while cutting emissions.
+**Kalundborg Symbiosis (Denmark)** shows that waste-as-resource ecosystems can sustain rural economies while cutting emissions.---
+**Kamikatsu, Japan** — a small mountain town sustains local reuse/repair businesses via a Zero-Waste Center and resident sorting (>80% recycling), turning “waste” into community value.  ￼
+**Nesselnbach, Switzerland** — food-waste biogas is upgraded to biomethane and the off-gas CO₂ is purified/liquefied and sold as a product, adding rural revenue streams and closing loops.  ￼
 
----
-
-## Deliverables & Milestones
-- **M1 – Data framing (Week 1–2)**  
-  Schema, sources list, data license proposals; initial county-level inventory
-- **M2 – Atlas MVP (Week 3–4)**  
-  Base map with feedstock + processor layers (GeoJSON), simple proximity logic
-- **M3 – Loops pack (Week 5–6)**  
-  5–8 candidate loops with micro-econ sheets + regulatory checklists
-- **M4 – Readout (Week 7)**  
-  Demo map, summary note, and next-step pilot shortlist
-
----
-
-## Implementation Hints
-- **Stack**: QGIS for wrangling → export GeoJSON → MapLibre/Leaflet for web map  
-- **Data model**: `nodes.csv` (type, coords, capacity), `edges.csv` (flow, cost, distance), `loops.yml` (assumptions)  
-- **Assumptions**: standardize units (t/yr, m³/yr); include min/avg/max ranges
-
----
-
-## Contributing
-Issues and PRs welcome. Please:
-- Cite sources in `/sources/README.md`
-- Include a changelog entry and data dictionary updates
-- Follow coding style in `/web/CONTRIBUTING.md`
-
----
-
-## License
-TBD (suggestion: **ODbL** for data, **CC BY 4.0** for docs, **MIT** for code)
-
----
-
-## Maintainers
-TBD — add contact and governance notes.
-
----
-
-[ces]: <ADD_OFFICIAL_URL>
-[teagasc-ad]: <ADD_OFFICIAL_URL>
-[nwm-2430]: <ADD_OFFICIAL_URL>
-[bnm-pcas]: <ADD_OFFICIAL_URL>
-[ei-gtf]: <ADD_OFFICIAL_URL>
