@@ -15,7 +15,7 @@ The Shannon Basin’s agri-industrial ecosystem produces abundant organic by-pro
 ---
 
 ## Problem
-Design an open, living geospatial map of resource loops that connects waste/by-product producers with processors and end-users, surfaces actionable pilot opportunities, and helps coalitions move from idea → feasibility → implementation.
+Design an open, living geospatial map of resource loops that connects waste/by-product producers with processors and end-users, surfaces actionable pilot opportunities, and helps coalitions move from idea → feasibility → implementation. Can be supplemented with development of new sustainable harvesting methods.
 **Key questions**
 - What feedstocks exist, where, and at what volumes/seasonality?
 - Which processors and off-takers are viable within realistic logistics radii?
